@@ -70,7 +70,7 @@ export default function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="bg-gradient-to-r from-primary border-0 to-hoverColor mx-auto max-w-screen-xl px-6 py-2 sticky top-0 z-50">
+    <Navbar className="bg-gradient-to-r from-primary border-0 to-hoverColor mx-auto px-6 py-2 sticky top-0 z-50 w-100">
       <div className="flex items-center justify-between ">
         <Typography
           as="a"
