@@ -78,7 +78,7 @@ export default function NavbarSimple() {
           variant="h6"
           className="font-bold mr-4 cursor-pointer py-1.5"
         >
-          Telmo's Portfolio
+          Portfolio
         </Typography>
         <div className="hidden lg:block">
           <NavList />
