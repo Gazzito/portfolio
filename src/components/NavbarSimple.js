@@ -4,6 +4,7 @@ import {
   Collapse,
   Typography,
   IconButton,
+  MobileNav,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
  
@@ -69,7 +70,7 @@ export default function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="bg-primary text-white mx-auto max-w-screen-xl px-6 py-2">
+    <Navbar className="bg-gradient-to-r from-primary border-0 to-hoverColor mx-auto max-w-screen-xl px-6 py-2 sticky top-0 z-50">
       <div className="flex items-center justify-between ">
         <Typography
           as="a"
@@ -95,9 +96,9 @@ export default function NavbarSimple() {
           )}
         </IconButton>
       </div>
-      <Collapse open={openNav}>
+      <MobileNav open={openNav}>
         <NavList />
-      </Collapse>
+      </MobileNav>
     </Navbar>
   );
 }
