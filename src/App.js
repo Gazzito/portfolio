@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import NavbarSimple from "./components/NavbarSimple.js";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-primary text-3xl font-bold underline">Hselasjhfsddlno swokrld!</h1>
+      <NavbarSimple/>
     </div>
   );
 }

@@ -13,6 +13,7 @@ module.exports = {
     colors: {
       'primary': '#182058',
       'secondary': '#7D83B0',
+      'hoverColor': '#080E3B',
       'pink': '#ff49db',
       'orange': '#ff7849',
       'green': '#13ce66',
@@ -20,6 +21,7 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      'white': '#ffff'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
