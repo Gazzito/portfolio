@@ -7,11 +7,13 @@ import Introduction from "./components/Introduction";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App scroll-smooth">
       <NavbarSimple/>
       <Scroll>
       <section>
+      
         <Introduction/>
+        <div className="px-6 bg-primary text-hoverColor" ><hr className="opacity-50"></hr></div>
         <Biography/>
       </section>
       </Scroll>

@@ -7,6 +7,7 @@ import {
   MobileNav,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Link } from "react-scroll";
  
 function NavList() {
   return (
@@ -17,19 +18,10 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-extralight"
       >
-        <a href="#" className="flex items-center hover:text-secondary transition-colors">
+        <Link to="bio" spy={true} smooth={true} offset={50} duration={500} className="flex items-center hover:text-secondary transition-colors">
           Biography
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-extralight"
-      >
-        <a href="#" className="flex items-center hover:text-secondary transition-colors">
-          Experience
-        </a>
+        </Link>
+        
       </Typography>
       <Typography
         as="li"
@@ -39,6 +31,16 @@ function NavList() {
       >
         <a href="#" className="flex items-center hover:text-secondary transition-colors">
           Skills
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-extralight"
+      >
+        <a href="#" className="flex items-center hover:text-secondary transition-colors">
+          Projects
         </a>
       </Typography>
       <Typography
@@ -70,7 +72,7 @@ export default function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="bg-gradient-to-r from-primary border-0 to-hoverColor mx-auto px-6 py-2 sticky top-0 z-50 w-100">
+    <Navbar className="bg-gradient-to-r from-hoverColor via-primary to-hoverColor shadow-hoverColor shadow-sm mx-auto px-6 py-2 sticky top-0 z-50 w-100">
       <div className="flex items-center justify-between ">
         <Typography
           as="a"
