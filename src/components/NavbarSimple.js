@@ -18,7 +18,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-extralight"
       >
-        <Link to="bio" spy={true} smooth={true} offset={50} duration={500} className="flex items-center hover:text-secondary transition-colors">
+        <Link to="bio" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
           Biography
         </Link>
         
@@ -29,9 +29,9 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-extralight"
       >
-        <a href="#" className="flex items-center hover:text-secondary transition-colors">
+        <Link to="skills" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
           Skills
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -80,7 +80,11 @@ export default function NavbarSimple() {
           variant="h6"
           className="font-bold mr-4 cursor-pointer py-1.5"
         >
-          Portfolio
+
+<Link to="home" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer">
+Portfolio
+        </Link>
+          
         </Typography>
         <div className="hidden lg:block">
           <NavList />

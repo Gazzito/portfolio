@@ -4,14 +4,14 @@ import React from "react";
 const Biography = () => {
   return (
   
-     <div id="bio" className="py-10 px-6 bg-primary grid-rows-6 grid-flow-col md:grid md:grid-rows-6 md:grid-flow-col md:gap-2">
+     <div id="bio" className="py-10 px-6 bg-gradient-to-l from-hoverColor via-primary to-hoverColor grid-rows-6 grid-flow-col md:grid md:grid-rows-6 md:grid-flow-col md:gap-2">
 
-        <div className="bg-secondary bg-opacity-40 rounded-lg row-span-1 col-span-1">
-            <Typography variant="h3" className="text-center text-white font-bold mt-1">
+        <div className="bg-secondary bg-opacity-25 rounded-lg row-span-1 col-span-1">
+            <Typography variant="h3" className="pl-6 text-left text-white font-bold mt-1">
                 Biography
             </Typography>
         </div>  
-        <div className="bg-secondary bg-opacity-40 rounded-lg w-auto py-10 px-6 mt-2 md:row-span-5 md:col-span-1 ">
+        <div className="bg-secondary bg-opacity-25 rounded-lg w-auto py-10 px-6 mt-2 md:row-span-5 md:col-span-1 ">
 
         <Typography className="text-justify font-extralight text-sm text-white ">
         I started by taking a Professional Course, where I got my passion for programming. I was a intern at a company that maintained the hardware for the entire company of "Os Mosqueteiros".
