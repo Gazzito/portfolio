@@ -53,21 +53,21 @@ const Skills = () => {
       <div className="col-span-full md:row-span-1 md:col-span-2 text-white font-extralight bg-secondary bg-opacity-20 rounded-lg mt-2 py-10 px-6 flex flex-col items-start justify-start">
         <div className="flex">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
             className="h-14 w-14"
           />
           <span className="flex items-center justify-center ml-5 italic">
-            Hypertext Markup Language
+            NodeJS
           </span>
         </div>
 
         <div className="flex mt-10">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
             className="h-14 w-14"
           />
           <span className="flex items-center justify-center ml-5 italic">
-            TailwindCSS
+            ExpressJS
           </span>
         </div>
         <div className="flex">
@@ -76,16 +76,16 @@ const Skills = () => {
             className="h-14 w-14 mt-10"
           />
           <span className="flex items-center justify-center mt-10 ml-5 italic">
-            Javascript
+            PostgreSQL
           </span>
         </div>
         <div className="flex">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
             className="h-14 w-14 mt-10"
           />
           <span className="flex items-center justify-center mt-10 ml-5 italic">
-            React
+            MongoDB
           </span>
         </div>
       </div>

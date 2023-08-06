@@ -4,7 +4,6 @@ import {
   Collapse,
   Typography,
   IconButton,
-  MobileNav,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-scroll";
@@ -57,6 +56,23 @@ function NavList() {
   );
 }
  
+export function MobileNav({ open }) {
+  return (
+    <Collapse
+      className={`${open ? "visible" : "invisible pointer-events-none"} lg:hidden w-full mt-0 `}
+      open={open}
+    >
+      <div className="rounded-lg shadow-lg">
+        {open && (
+          <div className="flex flex-col gap-2 p-4">
+            <NavList />
+          </div>
+        )}
+      </div>
+    </Collapse>
+  );
+}
+
 export default function NavbarSimple() {
   const [openNav, setOpenNav] = React.useState(false);
  
@@ -102,7 +118,7 @@ Portfolio
           )}
         </IconButton>
       </div>
-      <MobileNav open={openNav}>
+      <MobileNav open = {openNav}>
         <NavList />
       </MobileNav>
     </Navbar>
