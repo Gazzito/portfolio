@@ -1,94 +1,84 @@
 import React from "react";
-
+import { Typography } from "@material-tailwind/react";
+import Separator from "./Separator";
 const Skills = () => {
   return (
-    <div id="skills" className="grid grid-cols-1 md:grid-cols-8 md:grid-flow-row py-10 px-6 bg-gradient-to-l from-hoverColor via-primary to-hoverColor">
-      <span className="col-span-8 text-xl text-left pl-6 font-bold text-white">
-        Skills
-      </span>
-      <div className="col-span-full mt-5 md:mt-0 md:col-span-4 text-white">Frontend</div>
-      <div className="hidden col-span-full md:grid md:col-span-4 text-white">Backend</div>
-      <div className="md:row-span-1 md:col-span-1"></div>
-      <div className="col-span-full md:row-span-1 md:col-span-2 text-white font-extralight bg-secondary bg-opacity-20 rounded-lg mt-2 py-10 px-6 flex flex-col items-start justify-start">
-        <div className="flex">
+    <div id="skills" className="grid grid-flow-row grid-cols-2 md:grid-cols-8 md:grid-flow-row py-10 bg-gradient-to-l from-hoverColor via-primary to-hoverColor">
+      <div className="w-auto h-9 col-span-full">
+      <Typography variant="h3" className="text-center text-4xl font-montserrat text-white font-bold mt-1">
+                S K I L L S
+      </Typography>
+      </div>
+      
+      <div className="col-span-1 row-span-1 text-xl mt-10 md:col-span-4 text-white">Frontend
+      
+      <div className="col-span-1  md:row-span-1 md:col-span-2 text-white font-extralight py-5 px-6 flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-5">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
-            className="h-14 w-14"
+            className="h-24 w-24 mb-3 bg-white p-3 rounded-lg"
           />
-          <span className="flex items-center justify-center ml-5 italic">
-            Hypertext Markup Language
-          </span>
+            <span>HTML</span>
         </div>
 
-        <div className="flex mt-10">
+        <div className="flex flex-col mt-10">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-            className="h-14 w-14"
+            className="h-24 w-24 mb-3 bg-white p-3 rounded-lg"
           />
-          <span className="flex items-center justify-center ml-5 italic">
-            TailwindCSS
-          </span>
+            <span>TailwindCSS</span>
         </div>
-        <div className="flex">
+        <div className="flex flex-col mt-10">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-            className="h-14 w-14 mt-10"
+            className="h-24 w-24 mb-3 bg-white p-3 rounded-lg"
           />
-          <span className="flex items-center justify-center mt-10 ml-5 italic">
-            Javascript
-          </span>
+            <span>JavaScript</span>
         </div>
-        <div className="flex">
+        <div className="flex flex-col mt-10">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-            className="h-14 w-14 mt-10"
+            className="h-24 w-24 mb-3 bg-white p-3 rounded-lg"
           />
-          <span className="flex items-center justify-center mt-10 ml-5 italic">
-            React
-          </span>
+            <span>React</span>
         </div>
-      </div>
-      <div className="row-span-1 col-span-1 md:row-span-1 md:col-span-2"></div>
-      <div className="mt-7 md:hidden col-span-full md:row-span-1 md:col-span-4 text-white">Backend</div>
-      <div className="col-span-full md:row-span-1 md:col-span-2 text-white font-extralight bg-secondary bg-opacity-20 rounded-lg mt-2 py-10 px-6 flex flex-col items-start justify-start">
-        <div className="flex">
+      </div></div>
+      <div className="text-xl mt-10 col-span-1 md:row-span-1 md:col-span-4 text-white">Backend
+      <div className="col-span-1 md:row-span-1 md:col-span-2 text-white font-extraligh py-5 px-6 flex flex-col items-center justify-center">
+        <div className="flex flex-col mt-5 ">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
-            className="h-14 w-14"
+            className="h-24 w-24 mb-3 bg-white p-3 rounded-lg"
           />
-          <span className="flex items-center justify-center ml-5 italic">
-            NodeJS
-          </span>
+            <span>NodeJS</span>
         </div>
 
-        <div className="flex mt-10">
+        <div className="flex flex-col mt-10">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
-            className="h-14 w-14"
+            src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
+            className="h-24 w-24 mb-3 bg-white p-3 rounded-lg"
           />
-          <span className="flex items-center justify-center ml-5 italic">
-            ExpressJS
-          </span>
+            <span>ExpressJS</span>
         </div>
-        <div className="flex">
+        <div className="flex flex-col mt-10">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-            className="h-14 w-14 mt-10"
+            src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+            className="h-24 w-24 mb-3 bg-white p-3 rounded-lg"
           />
-          <span className="flex items-center justify-center mt-10 ml-5 italic">
-            PostgreSQL
-          </span>
+          
+          <span>PostgreSQL</span>
+         
         </div>
-        <div className="flex">
+        <div className="flex flex-col mt-10">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
-            className="h-14 w-14 mt-10"
+            className="h-24 w-24 mb-3 bg-white p-3 rounded-lg"
           />
-          <span className="flex items-center justify-center mt-10 ml-5 italic">
-            MongoDB
-          </span>
+           <span>MongoDB</span>
         </div>
       </div>
+      </div>
+     
     </div>
   );
 };

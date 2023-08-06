@@ -59,7 +59,7 @@ function NavList() {
 export function MobileNav({ open }) {
   return (
     <Collapse
-      className={`${open ? "visible" : "invisible pointer-events-none"} lg:hidden w-full mt-0 `}
+      className={`${open ? "visible" : "invisible pointer-events-none"} lg:hidden w-full mt-1 `}
       open={open}
     >
       <div className="rounded-lg shadow-lg">
@@ -88,7 +88,7 @@ export default function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="bg-gradient-to-r from-hoverColor via-primary to-hoverColor shadow-hoverColor shadow-sm mx-auto px-6 py-2 sticky top-0 z-50 w-100">
+    <Navbar className="rounded-none bg-gradient-to-r from-hoverColor via-primary to-hoverColor shadow-hoverColor shadow-sm mx-auto px-6 py-2 sticky top-0 z-50 w-100">
       <div className="flex items-center justify-between ">
         <Typography
           as="a"

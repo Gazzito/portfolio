@@ -8,13 +8,14 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <div className="App scroll-smooth">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"></link>
       <NavbarSimple/>
       <Scroll>
       <section>
         <Introduction/>
-        <Separator/>
+
         <Biography/>
-        <Separator />
+        
         <Skills/>
       </section>
       </Scroll>
