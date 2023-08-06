@@ -44,7 +44,7 @@ const Skills = () => {
         </div>
       </div></div>
       <div className="text-xl mt-10 col-span-1 md:row-span-1 md:col-span-4 text-white">Backend
-      <div className="col-span-1 md:row-span-1 md:col-span-2 text-white font-extraligh py-5 px-6 flex flex-col items-center justify-center">
+      <div className="col-span-1 md:row-span-1 md:col-span-2 text-white font-extralight py-5 px-6 flex flex-col items-center justify-center">
         <div className="flex flex-col mt-5 ">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
