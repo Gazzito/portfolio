@@ -5,6 +5,7 @@ import Biography from "./components/Biography";
 import Introduction from "./components/Introduction";
 import Separator from "./components/Separator";
 import Skills from "./components/Skills";
+import Gallery from "./components/Gallery";
 function App() {
   return (
     <div className="App scroll-smooth">
@@ -17,6 +18,7 @@ function App() {
         <Biography/>
         
         <Skills/>
+        <Gallery/>
       </section>
       </Scroll>
     </div>

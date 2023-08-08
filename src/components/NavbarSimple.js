@@ -14,7 +14,7 @@ function NavList() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-extralight"
       >
         <Link to="bio" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
@@ -25,7 +25,7 @@ function NavList() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-extralight"
       >
         <Link to="skills" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
@@ -35,7 +35,7 @@ function NavList() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-extralight"
       >
         <a href="#" className="flex items-center hover:text-secondary transition-colors">
@@ -45,7 +45,7 @@ function NavList() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         className="p-1 font-extralight"
       >
         <a href="#" className="flex items-center hover:text-secondary transition-colors">
@@ -88,7 +88,7 @@ export default function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="rounded-none bg-gradient-to-r from-hoverColor via-primary to-hoverColor shadow-hoverColor shadow-sm mx-auto px-6 py-2 sticky top-0 z-50 w-100">
+    <Navbar className="rounded-none max-w-full border-0 bg-gradient-to-r from-hoverColor via-primary to-hoverColor shadow-hoverColor shadow-sm px-6 py-2 sticky top-0 z-50">
       <div className="flex items-center justify-between ">
         <Typography
           as="a"

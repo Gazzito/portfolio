@@ -7,7 +7,7 @@ const Biography = () => {
      <div id="bio" className="py-8 px-6 bg-secondary grid-rows-6 grid-flow-col md:grid-rows-6 md:grid-flow-col xl:grid xl:grid-rows-1 xl:grid-cols-6 xl:gap-2">
 <div className="col-span-1 row-span-1">
       <div className="hidden xl:flex items-center justify-center">
-            <Typography variant="h3" className="pl-6 mt-3 text-4xl font-montserrat text-white font-bold text-center leading-tight">
+            <Typography variant="h3" className="pl-6 mt-6 text-4xl font-montserrat text-white font-bold text-center leading-tight">
                 B <br></br>
                 I <br></br>O<br></br> G<br></br> R<br></br> A <br></br>P <br></br>H <br></br>Y
             </Typography>

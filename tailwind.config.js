@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+
+const withMT = require("@material-tailwind/react/utils/withMT");
+module.exports = withMT({
+  content: ['./src/**/*.{html,js}'],
   theme: {
     screens: {
       sm: "480px",
@@ -21,6 +23,7 @@ module.exports = {
     colors: {
       primary: "#182058",
       secondary: "#293160",
+      terciary:"#4C62A3",
       highlight: "#80A4ED",
       hoverColor: "#080E3B",
       pink: "#ff49db",
@@ -62,5 +65,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-};
+  plugins:[],
+});
