@@ -16,7 +16,7 @@ const Gallery = () => {
           P R O J E C T S
         </Typography>
       </div>
-<div className="max-w-5xl h-[32rem] my-10">
+<div className="max-w-sm h-[28rem] md:max-w-5xl md:h-[32rem] xl:max-w-5xl xl:h-[32rem] my-10">
       <Carousel
         className="rounded-xl"
         navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -37,10 +37,10 @@ const Gallery = () => {
         <img
           src="https://media.discordapp.net/attachments/765883814634717214/1138600662926631023/image.png?width=1202&height=507"
           alt="image 1"
-          className="h-full"
+          className="h-full bg-cover"
         />
-        <div className="inset-0 absolute bg-black bg-opacity-50 flex flex-col items-center justify-center">
-          <div className=" bg-black bg-opacity-50 rounded-lg w-6/12 py-10 px-10">
+        <div className="inset-0 absolute  bg-black bg-opacity-50 flex flex-col items-center justify-center">
+          <div className="bg-black bg-opacity-50 rounded-lg md:w-6/12 md:py-10 px-14 xl:w-6/12 py-10 xl:px-10">
           <Typography
             variant="h1"
             color="white"
@@ -52,7 +52,7 @@ const Gallery = () => {
           <Typography
             variant="h1"
             color="white"
-            className="py-2 mb-4 text-xl font-montserrat font-light md:text-xl lg:text-xl"
+            className="py-2 mb-4 text-base font-montserrat font-light md:text-xl lg:text-xl"
           >
             My first app created with the frontend-skills above mentioned.
             It shows a simple array of objects gathered from this website <span className="font-bold  hover:text-secondary transition-colors"><a href="https://robohash.org/" target="_blank">https://robohash.org/</a></span>
