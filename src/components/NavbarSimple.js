@@ -38,9 +38,9 @@ function NavList() {
         color="white"
         className="p-1 font-extralight"
       >
-        <a href="#" className="flex items-center hover:text-secondary transition-colors">
+         <Link to="projects" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
           Projects
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"

@@ -7,7 +7,7 @@ import {
 } from "@material-tailwind/react";
 const Gallery = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-terciary py-8 px-6">
+    <div id="projects" className="flex flex-col items-center justify-center bg-terciary py-8 px-6">
       <div className="flex items-center justify-center">
         <Typography
           variant="h3"
