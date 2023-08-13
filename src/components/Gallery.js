@@ -52,7 +52,7 @@ const Gallery = () => {
           <Typography
             variant="h1"
             color="white"
-            className="py-2 mb-4 text-base font-montserrat font-light md:text-xl lg:text-xl"
+            className="max-w-mdpy-2 mb-4 text-base font-montserrat font-light md:text-xl lg:text-xl"
           >
             My first app created with the frontend-skills above mentioned.
             It shows a simple array of objects gathered from this website <span className="font-bold  hover:text-secondary transition-colors"><a href="https://robohash.org/" target="_blank">https://robohash.org/</a></span>

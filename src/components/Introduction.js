@@ -8,7 +8,7 @@ const Introduction = () => {
            Hello!
           <span className="text-highlight ml-2">I'm Telmo.</span>
         </div>
-        <div className="font-montserrat text-right text-white">A FullStack Web Developer</div>
+        <div className="font-montserrat text-center md:text-right text-white">A FullStack Web Developer</div>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import React from "react";
+import photo from "../images/myPicture.jpg"
 
 const Biography = () => {
   return (
@@ -29,7 +30,7 @@ const Biography = () => {
            
         </div>
         <div className="mt-4 px-6 md:row-span-1 md:mt-0 md:col-span-2 w-auto flex  justify-center">
-          <img className="rounded-xl" src="https://scontent.fopo6-2.fna.fbcdn.net/v/t39.30808-6/344763731_1913356182351631_9019264215445248445_n.jpg?_nc_cat=105&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Vjar9Q4kN4AAX93yhsW&_nc_ht=scontent.fopo6-2.fna&oh=00_AfCgb-XtezEtd7K_Lurd_bDxR36p7wYz3OfJ5zv5ERH0aQ&oe=64D3A50C"  />
+          <img className="rounded-xl" src={photo}/>
         </div>
      </div>
   
