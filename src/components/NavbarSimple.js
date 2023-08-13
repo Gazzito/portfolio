@@ -10,12 +10,12 @@ import { Link } from "react-scroll";
  
 function NavList() {
   return (
-    <ul className=" my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-extralight"
+        className="font-montserrat p-1 font-extralight"
       >
         <Link to="bio" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
           Biography
@@ -26,7 +26,7 @@ function NavList() {
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-extralight"
+        className="font-montserrat p-1 font-extralight"
       >
         <Link to="skills" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
           Skills
@@ -36,7 +36,7 @@ function NavList() {
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-extralight"
+        className="font-montserrat p-1 font-extralight"
       >
          <Link to="projects" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
           Projects
@@ -46,11 +46,11 @@ function NavList() {
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-extralight"
+        className="font-montserrat p-1 font-extralight"
       >
-        <a href="#" className="flex items-center hover:text-secondary transition-colors">
+         <Link to="contactForm" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
           Contact me
-        </a>
+        </Link>
       </Typography>
     </ul>
   );
@@ -94,7 +94,7 @@ export default function NavbarSimple() {
           as="a"
           href="#"
           variant="h6"
-          className="font-bold mr-4 cursor-pointer py-1.5"
+          className="font-montserrat font-bold mr-4 cursor-pointer py-1.5"
         >
 
 <Link to="home" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer">

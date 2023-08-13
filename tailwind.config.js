@@ -23,7 +23,9 @@ module.exports = withMT({
     colors: {
       primary: "#182058",
       secondary: "#293160",
-      terciary:"#4C62A3",
+      tertiary:"#4C62A3",
+      quaternary:"#7394DB",
+      quinary:"#3F5291",
       highlight: "#80A4ED",
       hoverColor: "#080E3B",
       pink: "#ff49db",

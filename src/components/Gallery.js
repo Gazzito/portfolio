@@ -7,7 +7,7 @@ import {
 } from "@material-tailwind/react";
 const Gallery = () => {
   return (
-    <div id="projects" className="flex flex-col items-center justify-center bg-terciary py-8 px-6">
+    <div id="projects" className="flex flex-col items-center justify-center bg-quaternary py-8 px-6">
       <div className="flex items-center justify-center">
         <Typography
           variant="h3"
@@ -57,7 +57,7 @@ const Gallery = () => {
             My first app created with the frontend-skills above mentioned.
             It shows a simple array of objects gathered from this website <span className="font-bold  hover:text-secondary transition-colors"><a href="https://robohash.org/" target="_blank">https://robohash.org/</a></span>
           </Typography>
-          <div><Button className="bg-primary rounded-lg">Find more</Button></div>
+          <div><a href="https://gazzito.github.io/robotfriends/" target="_blank"><Button className="font-montserrat bg-primary rounded-lg">Find more</Button></a></div>
           </div>
           
         </div>
