@@ -17,7 +17,7 @@ function NavList() {
         color="white"
         className="font-montserrat p-1 font-extralight"
       >
-        <Link to="bio" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
+        <Link to="bio" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-highlight transition-colors">
           Biography
         </Link>
         
@@ -28,7 +28,7 @@ function NavList() {
         color="white"
         className="font-montserrat p-1 font-extralight"
       >
-        <Link to="skills" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
+        <Link to="skills" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-highlight transition-colors">
           Skills
         </Link>
       </Typography>
@@ -38,7 +38,7 @@ function NavList() {
         color="white"
         className="font-montserrat p-1 font-extralight"
       >
-         <Link to="projects" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
+         <Link to="projects" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-highlight transition-colors">
           Projects
         </Link>
       </Typography>
@@ -48,7 +48,7 @@ function NavList() {
         color="white"
         className="font-montserrat p-1 font-extralight"
       >
-         <Link to="contactForm" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-secondary transition-colors">
+         <Link to="contactForm" spy={true} smooth={true} offset={-45} duration={500} className="flex items-center cursor-pointer hover:text-highlight transition-colors">
           Contact me
         </Link>
       </Typography>

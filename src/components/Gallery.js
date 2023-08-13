@@ -55,7 +55,7 @@ const Gallery = () => {
             className="max-w-mdpy-2 mb-4 text-base font-montserrat font-light md:text-xl lg:text-xl"
           >
             My first app created with the frontend-skills above mentioned.
-            It shows a simple array of objects gathered from this website <span className="font-bold  hover:text-secondary transition-colors"><a href="https://robohash.org/" target="_blank">https://robohash.org/</a></span>
+            It shows a simple array of objects gathered from this website <span className="font-bold  hover:text-highlight transition-colors"><a href="https://robohash.org/" target="_blank">https://robohash.org/</a></span>
           </Typography>
           <div><a href="https://gazzito.github.io/robotfriends/" target="_blank"><Button className="font-montserrat bg-primary rounded-lg">Find more</Button></a></div>
           </div>
