@@ -32,14 +32,14 @@ const Biography = () => {
         <div className="flex items-center justify-center xl:hidden">
           <Typography
             variant="h3"
-            className="mt-3 text-4xl font-montserrat text-white font-bold text-center "
+            className="mt-3 text-3xl md:text-4xl font-montserrat text-white font-bold text-center "
           >
             B I O G R A P H Y
           </Typography>
         </div>
       </div>
-      <div className="bg-opacity-25 mt-3 rounded-lg py-0 px-6 md:col-span-3">
-        <Typography className="text-justify text-base font-montserrat font-extralight text-white leading-9">
+      <div className="bg-opacity-25 mt-3 rounded-lg py-0 px-4 md:px-6 md:col-span-3">
+        <Typography className="text-justify md:text-justify text-base font-montserrat font-extralight text-white leading-9">
           I started my journey by taking a Professional Course in the HighSchool
           of Entroncamento and proceeded furthermore to the PolyTechnic
           Institute of Tomar where I got my passion for programming, and by
@@ -56,7 +56,7 @@ const Biography = () => {
           soft skills and team building experiences. <b></b>
         </Typography>
       </div>
-      <div className="mt-4 px-6 md:row-span-1 md:mt-0 md:col-span-2 w-auto flex  justify-center">
+      <div className="mt-4 px-4 md:px-6 md:row-span-1 md:mt-0 md:col-span-2 w-auto flex justify-center">
         <img className="rounded-xl" src={photo} />
       </div>
     </motion.div>

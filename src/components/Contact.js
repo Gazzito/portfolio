@@ -53,7 +53,7 @@ function ContactForm() {
       </div>)
   }
   return (
-    <div id="contactForm" className="bg-quinary font-montserrat text-white w-full flex justify-center items-center py-8 px-6">
+    <div id="contactForm" className="bg-quinary font-montserrat text-white w-full flex justify-center items-center py-8 md:px-6">
       <form
         className="flex flex-col justify-start items-start w-9/12"
         onSubmit={handleSubmit}
@@ -61,7 +61,7 @@ function ContactForm() {
         <div className="w-full mb-2">
           <Typography
             variant="h3"
-            className="mt-3 text-4xl font-montserrat text-white font-bold text-center "
+            className="mt-3 text-3xl md:text-4xl font-montserrat text-white font-bold text-center "
           >
             C O N T A C T <span className="ml-2">M E</span>
           </Typography>
