@@ -1,11 +1,22 @@
 import { Typography } from "@material-tailwind/react";
 import React from "react";
 import photo from "../images/myPicture.jpg"
+import { motion } from "framer-motion";
+
+
+
+
+
 
 const Biography = () => {
   return (
   
-     <div id="bio" className="py-8 px-6 bg-secondary grid-rows-6 grid-flow-col md:grid-rows-6 md:grid-flow-col xl:grid xl:grid-rows-1 xl:grid-cols-6 xl:gap-2">
+    <motion.div
+    initial={{ opacity: 0, scale: 0.5 }}
+    whileInView={{ opacity:1, scale:1, delay:1000, transition: {
+      duration: 0.8
+    } }}
+     id="bio" className="py-8 px-6 bg-secondary grid-rows-6 grid-flow-col md:grid-rows-6 md:grid-flow-col xl:grid xl:grid-rows-1 xl:grid-cols-6 xl:gap-2">
 <div className="col-span-1 row-span-1">
       <div className="hidden xl:flex items-center justify-center">
             <Typography variant="h3" className="pl-6 mt-6 text-4xl font-montserrat text-white font-bold text-center leading-tight">
@@ -32,7 +43,7 @@ const Biography = () => {
         <div className="mt-4 px-6 md:row-span-1 md:mt-0 md:col-span-2 w-auto flex  justify-center">
           <img className="rounded-xl" src={photo}/>
         </div>
-     </div>
+     </motion.div>
   
   )
 };
